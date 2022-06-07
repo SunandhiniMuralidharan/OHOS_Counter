@@ -1,0 +1,16 @@
+<div class="container">
+
+   <div style="margin: 60px;">
+       <text style="font-size: 75px;font-weight: bold; ">Counter Application</text>
+   </div>
+    <div style="justify-content: center;">
+        <button class="signs" type="circle" icon="/common/images/plus.png" on:click="add"></button>
+        <text class="text">{{count}}</text>
+        <button class="signs" type="circle" icon="/common/images/minus.png" on:click="subtract"></button>
+    </div>
+
+    <div>
+        <button type="capsule" value="Reset Counter" style="margin: 20px;" on:click="reset"></button>
+    </div>
+
+</div>
