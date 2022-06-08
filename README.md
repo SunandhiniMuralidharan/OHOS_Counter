@@ -3,6 +3,8 @@ A Simple OpenHarmony API Version 8 Based Counter App in Javascript.
 
 The entire Application can be viewed from by [clicking here](https://github.com/SunandhiniMuralidharan/OHOS_Counter)
 
+![Counter_Screenshot](https://user-images.githubusercontent.com/71301091/172540701-6568469f-8669-4750-af93-466590d7425b.jpg)
+
 ## Usage
 
 
