@@ -3,13 +3,16 @@
     <div>
         <text class="text">{{count}}</text>
     </div>
+    <div>
+        <button type="capsule" style="margin-top: 100px;font-size: 50px;background-color: blueviolet;color: white;" if="{{!appear}}" on:click="start">Start Counter</button>
+    </div>
     <div style="justify-content: flex-end;">
-        <button style="margin-right: 250px;margin-top: 100px;" type="circle" if="{{count}}" icon="/common/images/minus.png" on:click="subtract"></button>
-        <button type="circle" style="margin-left: 25px;margin-top: 100px" icon="/common/images/plus.png" on:click="add"></button>
+        <button style="margin-right: 250px;margin-top: 100px;" type="circle" if="{{appear}}" icon="/common/images/minus.png" on:click="subtract"></button>
+        <button type="circle" style="margin-left: 25px;margin-top: 100px" if="{{appear}}" icon="/common/images/plus.png" on:click="add"></button>
     </div>
 
     <div>
-        <button type="circle" if="{{count}}" icon="/common/images/restart.png" style="margin-bottom: 50px;" on:click="reset"></button>
+        <button type="capsule" if="{{appear}}" style="margin-bottom: 50px;background-color: blueviolet;color: white;" on:click="reset">Reset</button>
     </div>
 
 </div>

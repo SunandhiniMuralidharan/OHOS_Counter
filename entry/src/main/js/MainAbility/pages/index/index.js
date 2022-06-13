@@ -1,9 +1,13 @@
 export default {
     data: {
-        count: 0
+        count: 0,
+        appear: false
     },
     onInit() {
 
+    },
+    start(){
+      this.appear = true;
     },
     add(){
         this.count = this.count + 1;
