@@ -3,12 +3,16 @@ A Simple OpenHarmony API Version 8 Based Counter App in Javascript.
 
 The entire Application can be viewed from by [clicking here](https://github.com/SunandhiniMuralidharan/OHOS_Counter)
 
-![Counter_Screenshot](https://user-images.githubusercontent.com/71301091/172540701-6568469f-8669-4750-af93-466590d7425b.jpg)
+![Counter](https://user-images.githubusercontent.com/71301091/173360659-63711bff-9dab-401f-bc66-9d170a07c84b.gif)
+
 
 ## Usage
 
+When the app starts, first screen has the counter value set to 0 and a start button.
 
-Add necessary UI needed for a simple counter that has a add button, subtract button, a reset button and a text field.
+![counter1](https://user-images.githubusercontent.com/71301091/173361827-ea69a6f2-1eda-4467-8d3e-7603e88bc787.jpg)
+
+When the Start Counter button is clicked, the UI changes to a simple counter UI that has a add button, subtract button, a reset button and a text field. UI can be added with below code.
 
 ```js
     <div style="justify-content: center;">
@@ -22,7 +26,9 @@ Add necessary UI needed for a simple counter that has a add button, subtract but
     </div>
 ```
 
-Event handlers 
+<img width="175" alt="counter2" src="https://user-images.githubusercontent.com/71301091/173362302-682ea732-1716-46b0-8ed0-8f4dcc9ccebf.png">
+
+Event handlers are used to handle events associated with increment, decrement and reset of the counter value.
     
 ```js
     add(){
