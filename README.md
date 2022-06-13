@@ -16,7 +16,7 @@ When the app starts, first screen has the counter value set to 0 and a start but
     </div>
 ```
 
-![counter1](https://user-images.githubusercontent.com/71301091/173361827-ea69a6f2-1eda-4467-8d3e-7603e88bc787.jpg)
+<img width="175" alt="counter2" src="https://user-images.githubusercontent.com/71301091/173361827-ea69a6f2-1eda-4467-8d3e-7603e88bc787.jpg">
 
 When the Start Counter button is clicked, the UI changes to a simple counter UI that has a add button, subtract button, a reset button and a text field. UI can be added with below code.
 
